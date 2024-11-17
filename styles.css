@@ -1,0 +1,126 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styling */
+  .header {
+    
+    color: white; /* White text */
+    padding: 10px 20px;
+    display: flex;
+    /* align-items: left; */
+    justify-content: space-between;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures it stays above other content */
+  }
+  
+  /* Logo and Name Styling */
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between logo and text */
+  }
+  
+  .logo {
+    width: 50px; /* Adjust logo size */
+    height: auto;
+  }
+  
+  .site-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    align-self: left;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #004D40, #00B8D4);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    align-items: center;
+  }
+  .container-content {
+    align-items: center;
+    display: inline-block;
+    width: 50vw;
+  }
+  
+  .logo img {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  
+  main h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  main p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .video-preview {
+    background: #ffffff15;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    align-self: center;
+  }
+  
+  .preview-grid {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    height: 400px;
+    width: auto;
+    align-items: center;
+    align-self: center;
+  }
+  
+  .cta {
+    margin-top: 20px;
+  }
+  .cu {
+    align-self: right;
+  }
+  
+  .cta button {
+    background: #00B8D4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta button:hover {
+    background: #004D40;
+  }
+  
+  .badge {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .badge img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
