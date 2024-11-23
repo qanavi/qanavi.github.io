@@ -72,6 +72,16 @@ body {
   color: #aaa;
 }
 
+.waitlist a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.waitlist a:hover {
+  color: #aaa;
+}
+
 /* Hide the hamburger by default */
 .hamburger {
   display: none;
