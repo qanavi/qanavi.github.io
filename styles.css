@@ -72,6 +72,44 @@ body {
   color: #aaa;
 }
 
+/* Hide the hamburger by default */
+.hamburger {
+  display: none;
+  background: none;
+  color: #fff;
+  font-size: 1.5em;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    background-color: #000;
+    position: absolute;
+    top: 9vh;
+    left: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+    border-top: 1px solid #555;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-search {
+    display: none; /* Hide contact button in the navbar */
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+
 
 .logo {
   font-size: 1.5rem;

@@ -2,29 +2,52 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Your one-stop solution for dataset curation tailored to the unique demands of computer vision
+    applications">
+    <meta name="keywords" content="Computer Vision, Data Centric AI, Synthetic Data, Video Search">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Qanavi - One-stop Solution for Data Curation"/>
+    <meta property="og:image" content="https://qanavi.github.io/img/logo.jpg"/>
+    <meta property="og:description" content="Your one-stop solution for dataset curation tailored to the unique demands of computer vision
+    applications"/>
+    <meta property="og:url" content="https://qanavi.github.io"/>
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="627"/>
+    <meta property="og:type" content="website"/> 
+    <title>Research Page</title>
+    <link rel="icon" type="image/jpeg" href="./img/logo.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+  </head>
 
 <body>
   <div class="container">
     <header>
-      <nav class="navbar">
-        <div class="navbar-logo">
-          <span>Qanavi</span>
-        </div>
-        <ul class="navbar-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="project.html">Product</a></li>
-          <li><a href="research.html">Research</a></li>
-          <li><a href="blog.html">Blogs</a></li>
-        </ul>
-        <div class="navbar-search">
-          <a href="https://calendly.com/gsaicharan-2k1/30min?month=2024-11" target="_blank">Get in Touch</a>
-        </div>
-      </nav>
+        <nav class="navbar">
+            <div class="navbar-logo">
+              <span>Qanavi</span>
+            </div>
+            <ul class="navbar-links" id="navbar-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="project.html">Product</a></li>
+              <li><a href="research.html">Research</a></li>
+              <li><a href="blog.html">Blogs</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger"><i class="fa fa-bars"></i></button>
+            <div class="navbar-search">
+              <a href="https://calendly.com/gsaicharan-2k1/30min?month=2024-11" target="_blank">Get in Touch</a>
+            </div>
+          </nav>
+        </header>
+      
+        <script>
+            const hamburger = document.getElementById('hamburger');
+            const menu = document.getElementById('navbar-links');
+            hamburger.addEventListener('click', () => {
+                menu.classList.toggle('active');
+            });
+        </script>
     </header>
 
     <!-- Blog Page Content -->
