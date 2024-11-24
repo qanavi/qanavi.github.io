@@ -189,10 +189,9 @@ body {
 .image-container {
   position: relative;
   width: 50vw;
-  min-width: 200px;
-  /* Adjust to your image width */
-  height: 60vh;
-  /* Adjust to your image height */
+  min-width: 275px;
+  aspect-ratio: 4/3;
+  height: auto;
   overflow: hidden;
   align-items: center;
 }
@@ -276,7 +275,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  padding: 20px;
+  /* padding: 10px; */
 }
 
 .blog-card {
@@ -286,6 +285,7 @@ body {
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
+  display: block;
 }
 
 .blog-card:hover {
