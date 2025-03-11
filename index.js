@@ -102,7 +102,7 @@ function updateToggleModeBtn(){
 }
 
 
-const promptWindow =  new Prompt("#pixa-playground")
+const promptWindow =  new Prompt("#autoset-playground")
 const promptForm = document.querySelector("#prompt-form")
 const promptInput = promptForm.querySelector("input[name='prompt']")
 
